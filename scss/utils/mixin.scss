@@ -1,0 +1,12 @@
+@mixin mq($medida) {
+    @media (min-width: $medida) {
+        @content;
+    }
+}
+
+@mixin dflex ($direction, $justify, $align) {
+    Display: flex;
+    Flex-direction: $direction;
+    Justify-content: $justify;
+    Align-items: $align ;
+}

@@ -1,0 +1,53 @@
+header {
+    background-color: $color-primario;
+
+    .logo {
+        width: 20vh;
+        padding-left: 40px;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: $font-size-resaltado;
+        font-family: $font-title;
+        font-weight: bold;
+        line-height: 0.7;
+    }
+
+    h2 {
+        @extend h1;
+        text-align: center;
+    }
+
+    .item {
+        font-size: $font-size-resaltado;
+        font-family: $font-subtitle;
+        transition: $transition;
+        text-align: justify;
+
+    }
+
+    .item:hover {
+        transform: scale(1.1, 2);
+        color: $font-color-hover;
+        font-weight: 900;
+
+    }
+
+    .navbar-nav .nav-link.active {
+        color: $font-color-hover;
+        font-weight: 900;
+    }
+
+    .navbar-toggler {
+        border-color: black;
+        border-radius: 10%;
+    }
+
+    .navbar-toggler-icon {
+        width: 7vh;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/3388/3388823.png);
+        background-size: contain;
+    }
+
+}
