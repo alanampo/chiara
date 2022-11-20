@@ -1,0 +1,27 @@
+.btn{
+    font-family: $font-title ;
+    font-size: $font-size-resaltado;
+    font-weight: 600px;
+    text-align: center;
+    width: 10rem;
+    background: black;
+    padding: 10px;
+    margin: 0 100px 25px;
+    overflow: hidden;
+    border-radius: 35px 0 35px 0;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 10px solid $color-btn;
+    color:$color-btn;
+    @include mq (1200px){
+        font-size: $font-size-resaltadoxl;
+        width: 15rem;
+    }
+    &:hover {
+        background-color: $color-primario;
+        color: $color-texto;
+        font-weight: bold;
+        border: 10px solid $color-btn;
+    }
+   
+}

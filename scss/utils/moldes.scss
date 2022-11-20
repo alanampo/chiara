@@ -1,0 +1,42 @@
+
+%img-carousel{
+    max-height: 500px;
+    min-height: 500px;
+    min-width: 100%;
+}
+%img-carousel-title{
+    text-align: center;
+    font-family: $font-title;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+%img-carousel-p{
+    font-family: $font-text;
+    font-size: 20px;
+    color: $color-texto;
+    font-weight: bold;
+    background-color: $color-primario;
+    box-shadow: gray 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+%titulo-img-portada{
+    text-align: left;
+    font-family: $font-title;
+    font-weight:600;
+    font-size: 15px;
+    letter-spacing: .15em;
+    color: #fff;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+%texto-img-portada {
+    text-align: left;
+    font-family: $font-subtitle;
+    font-weight: bold;
+    letter-spacing: .15em;
+    font-size: 10px;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+

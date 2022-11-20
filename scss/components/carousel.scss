@@ -1,0 +1,26 @@
+.carousel{
+    &-item img{
+    @extend %img-carousel;
+    @include mq(1200px){
+        max-height: 600px;
+        min-height: 600px;
+    }
+    }
+    &-item h5 {
+        @extend %img-carousel-title;
+        @include mq(1200px){
+            font-size: 60px;
+         }
+        }
+    &-item p {
+        @extend %img-carousel-p;
+        @include mq(1200px){
+            font-size: 40px;
+         }
+
+    
+
+    }
+
+
+ }

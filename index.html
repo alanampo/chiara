@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <!-- Begining of the Body -->
 
 <body>
@@ -69,7 +70,110 @@
         </div>
     </header>
     <!-- Main of the page -->
+    <!-- Carousel  -->
+    <main class="bg-light">
+        <div class="bg-light">
+            <div class="carousel">
+                <div id="carouselindex" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselindex" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
 
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/guardian-angel-gc53f9af76_1920.jpg" class="d-block "
+                                alt="Arbolitos de navidad y Copos de nieve">
+                            <div class="carousel-caption">
+                                <h5>CELEBREMOS!</h5>
+                                <p>Tenemos las mejores propuestas para que regales diferente</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/chocolate-g1aab75d57_1920.jpg" class="d-block "
+                                alt="Bombones de Vanguardia">
+                            <div class="carousel-caption ">
+                                <h5>Bombones de Vanguardia!</h5>
+                                <p>Los mejores diseños que cambian semana a semana</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/mesa-ban.jpg" class="d-block " alt="Mesa dulce, con bandejas de bombones">
+                            <div class="carousel-caption ">
+                                <h5> PROPUESTAS! </h5>
+                                <p> Acompañamos tus mesas dulces y además contamos con regalos empresariales</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselindex"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselindex"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- About Us content -->
+            <section class="container">
+                <div class="row">
+                    <div class="col-xl-6 order-xl-last">
+                        <img src="./img/propuesta-1-.jpg" class="img-fluid aboutusmedia"
+                            alt="Bombones (caja x 12) acomañados de cafe">
+                    </div>
+                    <div class="col-xl-6 d-xl-flex flex-xl-column justify-content-center">
+                        <h1 class="display-1 text-center text-xl-start fw-bold">About Us </h1>
+                        <p class=" align-content-center text-xl-start texto-index ">Desde <a
+                                href="http://laferreteriaboutique.com.ar" target="_blank"> La Ferretería Boutique</a> se
+                            nos ocurrió que no necesariamente los diseños y la moda tiene que relacionarse solo a la
+                            ropa, entonces decidimos combinar los mejores sabores con los diseños más originales para
+                            dar resultado a nuestros <b> bombones de vanguardia</b> <br> Una propuesta para venir a
+                            responder la pregunta que siempre nos surge: ¿Qué podemos regalar?. <br>
+                            Entonces se nos ocurrió: qué mejor que regalar una experiencia en donde el agasajado ponga
+                            en accion sus 5 sentidos? saboreando el mejor cacao belga, oliendo el delicioso aroma a
+                            chocolate, viendo los magnificos diseños, sintiendo su suavidad y luego de probarlos
+                            escuchando el famoso "mmm..."</p>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a href="./paginas/productos.html" class=" btn">PROBAR!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <video src="./videos/video-evento.mp4" controls class=" w-100 h-100 aboutusmedia "></video>
+                    </div>
+                    <div class="col-xl-6 d-xl-flex flex-xl-column justify-content-center">
+                        <h1 class="display-1 text-center text-xl-start fw-bold">Nuestra Propuesta </h1>
+                        <p class=" align-content-center text-xl-start texto-index  "> No solo queremos que tus regalos
+                            sean los más
+                            originales, además queremos celebrar con vos acompañarte en esos momentos tan lindos con
+                            amigos, familias y compañeros de trabajo. <br> Es por esto que impulsamos las bandejas
+                            surtidas para tus eventos, platos decorados en base al tipo de evento que se trate con un
+                            surtido de nuestros mas exquisitos y lindos modelos. <br> Además tenemos colecciones
+                            especiales para fechas especiales, como el día de la madre, padre, navidad, etc para que tu
+                            regalo sea aun más personalizado. Por último, contamos con regalos empresariales, los cuales
+                            se pueden personalizar por cantidad de uniddes y envoltorios especiales con el logo de tu
+                            empresa. </p>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <a href="./paginas/eventos-regalos-empresariales.html" class=" btn">FESTEJEMOS!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
     <!-- Footer of the page -->
     <footer>
         <div class="pie">
@@ -91,6 +195,7 @@
                 </div>
             </section>
         </div>
+
         <!-- Footer nav of the page -->
         <div class="container">
             <div class="row">
@@ -99,7 +204,8 @@
                         <li><a href="./index.html"> About Us</a></li>
                         <li><a href="./paginas/nuestros-sabores.html">Nuestros Sabores</a></li>
                         <li><a href="./paginas/productos.html">Nuestros Productos</a></li>
-                        <li><a href="./paginas/eventos-regalos-empresariales.html"> Eventos y Regalos Empresariales</a>
+                        <li><a href="./paginas/eventos-regalos-empresariales.html"> Eventos y Regalos
+                                Empresariales</a>
                         </li>
                         <li><a href="./paginas/contacto.html">Contacto</a></li>
                     </ul>
