@@ -69,7 +69,63 @@
         </div>
     </header>
     <!-- Main of the page -->
+    <main class=" bg-light ">
+        <h2 class="titulo-principal container-fluid">FESTEJAMOS CON VOS! </h2>
 
+        <div class="container padreEvento">
+            <div class="row">
+                <div class="col-xl-6 justify-content-center align-content-center">
+                    <video src="../videos/video-evento2.mp4" controls class="VideoEvento"></video>
+                </div>
+                <div class="col-xl-6 justify-content-center align-content-center">
+                    <p class="TextoEvento">Rellená el formulario siguiente y en un plazo de 24 hs nos contactaremos con
+                        vos
+                        para brindarte detalles de todas las opciones que tenés dependiendo de lo que estés buscando
+                        para tu
+                        evento o empresa, además te enviaremos una aproximación del costo que dependerá de la cantidad
+                        de
+                        personas y tipo de producto que estés buscando! </p>
+                </div>
+            </div>
+        </div>
+        <!-- Formulario de Cotización -->
+        <form class="container" action="">
+            <h3>Formulario para pedir cotización</h3>
+            <div>
+                <label for="evento-regalo">Evento / Regalo Empresarial</label>
+                <select name="evento-regalo" id="selector-Evento-Regalo">
+                    <option value="Evento"> Evento</option>
+                    <option value="Regalo-Empresarial"> Regalo Empresarial</option>
+                </select>
+            </div>
+            <div>
+                <label for="tipo-de-articulo"> Tipo de Artículo</label>
+                <select name="Tipo-de-articulo" id="">
+                    <option value="Caja-pequeña"> Caja x6</option>
+                    <option value="Caja-grande"> Caja x20</option>
+                    <option value="Bandeja-evento"> Bandejas mixtas </option>
+                </select>
+            </div>
+            <div>
+                <label for="Cantidad-de-personas"> Cantidad de Personas</label>
+                <input type="number" name="cantidad-personas" min="5">
+            </div>
+            <div>
+                <label for="telefono-contacto"> Teléfono de Contacto </label>
+                <input type="tel" name="celular">
+            </div>
+            <div>
+                <label for="Fecha-entrega"> Fecha de Entrega </label>
+                <input type="date" name="fecha-entrega">
+            </div>
+            <div>
+                <label for="Aclaraciones"> Detalles / Aclaraciones </label>
+                <textarea> </textarea>
+            </div>
+            <a href="" class="btn ">Cotizar</a>
+        </form>
+        </div>
+    </main>
     <!-- Footer of the page -->
     <footer>
         <div class="pie">

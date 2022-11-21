@@ -1,0 +1,31 @@
+form{
+    font-size: 12px;
+    font-family: $font-subtitle;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 3;
+    border: black 5px solid;
+    width: 90%;
+    padding: 30px;
+    background-color: white;
+    color: $color-texto;
+   
+ @include mq(1200px){
+    font-size: 18px;
+
+ }
+    h3{
+        font-size: 18px;
+        color: $color-texto ;
+        font-weight: 700;
+        @include mq(1200px){
+            font-size: 24px;
+        
+         }
+    }
+}
+input, textarea{
+    margin: 15px;
+  padding: 10px;
+  
+}
