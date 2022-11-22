@@ -207,28 +207,6 @@ footer .map {
   border: 10px solid #F2EBBF;
 }
 
-.aboutusmedia {
-  padding: 30px;
-  height: 100%;
-  width: 100%;
-}
-
-.texto-index {
-  text-align: justify;
-}
-
-.texto-index::first-letter {
-  float: left;
-  font-size: 1.5em;
-  line-height: 1;
-  margin: 0.2rem;
-  margin-right: 0.6rem;
-  padding: 1rem;
-  background: rgba(233, 190, 130, 0.8431372549);
-  box-shadow: 0 0 0 0.2rem rgba(233, 190, 130, 0.8431372549);
-  border: 0.2rem solid black;
-}
-
 @media (min-width: 1200px) {
   .card1-title {
     font-size: 60px;
@@ -386,27 +364,6 @@ footer .map {
   }
 }
 
-.TextoEvento {
-  text-align: justify;
-  font-size: 12px;
-  font-weight: 300;
-  font-family: "Lora", serif;
-  color: black;
-  padding: 40px;
-  line-height: 3;
-}
-@media (min-width: 1200px) {
-  .TextoEvento {
-    font-size: 16px;
-    padding: 30px;
-  }
-}
-
-.VideoEvento {
-  width: 100%;
-  height: 50vh;
-}
-
 form {
   font-size: 12px;
   font-family: "Quattrocento", serif;
@@ -442,6 +399,49 @@ input, textarea {
 
 .formcontacto {
   margin: 20px;
+}
+
+.aboutusmedia {
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.texto-index {
+  text-align: justify;
+}
+
+.texto-index::first-letter {
+  float: left;
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 0.2rem;
+  margin-right: 0.6rem;
+  padding: 1rem;
+  background: rgba(233, 190, 130, 0.8431372549);
+  box-shadow: 0 0 0 0.2rem rgba(233, 190, 130, 0.8431372549);
+  border: 0.2rem solid black;
+}
+
+.TextoEvento {
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Lora", serif;
+  color: black;
+  padding: 40px;
+  line-height: 3;
+}
+@media (min-width: 1200px) {
+  .TextoEvento {
+    font-size: 16px;
+    padding: 30px;
+  }
+}
+
+.VideoEvento {
+  width: 100%;
+  height: 50vh;
 }
 
 /*# sourceMappingURL=style.css.map */
